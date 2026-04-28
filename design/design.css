@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-
+    
 }
 body
 {
@@ -13,25 +13,23 @@ body
 }
 .images
 {
-    
     width: 200px;
     height: 200px;
     transition: transform 0.3s ease-in-out;
 }
 .images:hover
 {
-  transform: scale(1.1);
+  transform: scale(1.1);  
 }
 .information
 {
  display: flex;
- align-items: normal;
- justify-content: normal;
+ align-items: center;
+ text-align: center;
  margin: 20px;
- 
 }
 .officers
 {
     margin: 10px;
-    align-items: normal;
+    align-items: center;
 }
